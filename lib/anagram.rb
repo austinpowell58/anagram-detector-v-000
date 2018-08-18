@@ -12,6 +12,7 @@ class Anagram
       x_array = x.split("")
       word_array = @word.split("")
       
+      
     
   end 
   
