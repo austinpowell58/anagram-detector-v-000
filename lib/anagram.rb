@@ -7,7 +7,11 @@ class Anagram
   end
   
   def match(stringofstuff)
-    stringofstuff.match
+    final_answer = []
+    stringofstuff.match do |x|
+      x_array = x.split("")
+      word_array = @word.split("")
+      
     
   end 
   
