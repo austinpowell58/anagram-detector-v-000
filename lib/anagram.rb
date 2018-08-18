@@ -6,8 +6,8 @@ class Anagram
     @word = word
   end
   
-  def match(word)
-    @word
+  def match(stringofstuff)
+    
   end 
   
   
