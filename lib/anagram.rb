@@ -11,7 +11,7 @@ class Anagram
     word_array = @word.split("").sort
     stringofstuff.each do |x|
       x_array = x.split("").sort
-      if x_array.match(word_array)
+      if x_array == word_array
         final_answer << x
       end 
     end 
