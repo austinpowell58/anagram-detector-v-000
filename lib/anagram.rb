@@ -8,9 +8,9 @@ class Anagram
   
   def match(stringofstuff)
     final_answer = []
-    stringofstuff.match do |x|
-      x_array = x.split("")
-      word_array = @word.split("")
+    stringofstuff.each do |x|
+      x_array = x.split("").sort
+      word_array = @word.split("").sort
       
       
     
