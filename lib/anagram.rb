@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(stringofstuff)
-    stringofstuff.match
+    stringofstuff.match{|x| x.sort == stringofstuff.sort}
     
   end 
   
